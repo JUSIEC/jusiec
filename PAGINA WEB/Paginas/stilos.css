@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+ }
+
+ .navbar {
+    display: flex;
+    margin-right: 10px;
+ }
+ .logo {
+    margin-left: 30px;
+ }
+
+ .logo a {
+    text-decoration:none ;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+
+ .navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+
+ .navbar a:hover{
+    background: rgb(114, 114, 114);
+ }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.header{
+    height: 60vh !important;
+    background: url(IMAGEN/portadas12.avif) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+p { 
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #000000;
+    color: aliceblue;
+    text-decoration: none;
+    background: rgb(74, 200, 112);
+}
+
+.btn-hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;   
+}
+.btn-home a{
+    margin: 0 10px;
+}
+
+.contant {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: rgb(72, 72, 72);
+
+ }
+ .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+
+ .box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #000000;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+ }
+ .box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border: 50%;
+    color:rgb(255, 255, 255) ;
+    background: rgb(0, 0, 0);
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: rgb(74, 180, 99);
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: black;
+}
+
+.contact {
+    padding: 20px;
+    background: #525151;
+}
